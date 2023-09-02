@@ -40,14 +40,12 @@ function Share({description}: ShareProps) {
   return (
     <div className='share-icon-collections'>
       <div className='App'>
-        <div className='main'>
-          <h1>Hello Coders!</h1>
-        </div>
         <div className='share-buttons'>
           <FacebookShareButton
-          //url={shareUrl}
-          url="yoann-croguennec.com"
-          quote={title}>
+            //url={shareUrl}
+            url='https://test-share-4jraf0g06-yoanncroguennec.vercel.app/'
+            quote='test test test'
+          >
             Share on Facebook
           </FacebookShareButton>
           <TwitterShareButton url={shareUrl} title={title}>
